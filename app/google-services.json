@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "438294455453",
+    "firebase_url": "https://eventfinder-dfdc2.firebaseio.com",
+    "project_id": "eventfinder-dfdc2",
+    "storage_bucket": "eventfinder-dfdc2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:438294455453:android:efe738f4577bed5d",
+        "android_client_info": {
+          "package_name": "vn.edu.poly.eventfinder"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "438294455453-flrt203ijij055f1r51e289g52qfnj43.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDLo7IQOVLkTujXrl2Ye4qgHk-HBna0ObA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

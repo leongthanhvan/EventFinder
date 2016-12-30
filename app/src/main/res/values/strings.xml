@@ -1,3 +1,17 @@
 <resources>
     <string name="app_name">EventFinder</string>
+    <string name="facebook_app_id">354990154893653</string>
+    <string name="fb_login_protocol_scheme">fb354990154893653</string>
+    <string name="title_activity_event_list">EventListActivity</string>
+
+    <string name="title_section1">Created Events</string>
+    <string name="title_section2">Joined Events</string>
+    <string name="title_section3">Account</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_example">Example action</string>
+
+    <string name="action_settings">Settings</string>
 </resources>
