@@ -1,9 +1,9 @@
 package vn.edu.poly.eventfinder;
 
-import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
+import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.widget.Toast;
 
@@ -22,7 +22,7 @@ import com.google.firebase.auth.FacebookAuthProvider;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 
-public class MainActivity extends Activity {
+public class MainActivity extends AppCompatActivity {
 
     LoginButton loginButton;
     CallbackManager callbackManager;
@@ -64,7 +64,7 @@ public class MainActivity extends Activity {
                 if (user != null) {
                     // User is signed in
                     Log.d("AuthListener", "onAuthStateChanged:signed_in:" + user.getUid());
-                    Intent i = new Intent(MainActivity.this, EventListActivity.class);
+                    Intent i = new Intent(MainActivity.this, Index.class);
                     startActivity(i);
                 } else {
                     // User is signed out
